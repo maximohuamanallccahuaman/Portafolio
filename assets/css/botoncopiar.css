@@ -1,0 +1,11 @@
+.copy-icon,
+.copied-icon {
+    transition: transform 0.3s; /* Transición suave */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+    font-size: 1.5rem; /* Tamaño del icono */
+    margin-left: 10px; /* Espacio entre el correo y el icono */
+}
+
+.copy-icon.clicked {
+    transform: scale(1.2); /* Aumenta el tamaño al hacer clic */
+}
