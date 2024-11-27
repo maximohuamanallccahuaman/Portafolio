@@ -6,7 +6,63 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="icon" href="images/mh.png" type="image/x-icon">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+			.carousel {
+				width: 100%;
+				overflow: hidden; /* Oculta las imágenes que no están en pantalla */
+				position: relative;
+				margin: 0 auto;
+				max-width: 100%;
+			}
+
+			.slides {
+				display: flex;
+				transition: transform 1s ease-in-out; /* Desplazamiento suave entre imágenes */
+			}
+
+			.slides .image {
+				flex: 0 0 100%; /* Cada imagen ocupa el 100% del contenedor */
+			}
+
+			.slides img {
+				width: 100%;
+				height: auto;
+				object-fit: cover;
+			}
+
+			.code-like-box {
+    background-color: #2c2c2c; /* Gris oscuro */
+    color: #f5f5f5; /* Texto claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Esquinas redondeadas */
+    width: 100%; /* Ancho fijo del contenedor */
+    margin: 20px auto; /* Centra el contenedor en la página */
+    font-family: 'Courier New', Courier, monospace; /* Fuente monoespaciada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra sutil para un efecto 3D */
+    text-align: left; /* Alinea el texto a la izquierda */
+    border: 1px solid #444; /* Borde sutil */
+}
+
+.code-like-box h3 {
+    font-size: 18px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espacio debajo del título */
+    color: #ffd700; /* Color dorado para el título */
+}
+
+.code-like-box p {
+    margin-bottom: 10px; /* Espacio debajo del párrafo */
+}
+
+.code-like-box img {
+    width: 100%; /* Ajusta el tamaño de la imagen dentro del contenedor */
+    height: auto;
+    margin-top: 10px; /* Espacio entre el texto y la imagen */
+    border-radius: 8px; /* Bordes redondeados para la imagen */
+}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -27,8 +83,6 @@
 							<h2>Menu</h2>
 							<ul class="links">
 								<li><a href="elements.html">Home</a></li>
-								<li><a href="#">Log In</a></li>
-								<li><a href="#">Sign Up</a></li>
 								<li><a href="index.html">Regresar</a></li>
 							</ul>
 							<a href="#" class="close">Close</a>
@@ -39,8 +93,8 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>Elements</h2>
-								<p>Phasellus non pulvinar erat. Fusce tincidunt nisl eget ipsum.</p>
+								<h2>Proyectos Tecnológicos</h2>
+								<p>¡Bienvenido a mi portafolio! Explora mis proyectos tecnológicos, donde desarrollo soluciones innovadoras combinando creatividad y experiencia técnica.</p>
 							</div>
 						</header>
 
@@ -49,6 +103,128 @@
 								<div class="inner">
 
 									<section>
+										<h2 class="major">VirtualStore <i class="fas fa-star" style="color: gold;"></i></h2>
+										<blockquote>Sistema integral de gestión de ventas diseñado para negocios pequeños y medianos, 
+											desarrollado para optimizar las operaciones diarias y brindar una experiencia eficiente y 
+											organizada. Ofrece herramientas clave para gestionar clientes, productos y ventas, además 
+											de funcionalidades avanzadas como el manejo de abonos y reportes detallados, proporcionando 
+											un control completo sobre las operaciones del negocio. Este sistema no solo mejora la 
+											eficiencia operativa, sino que también impulsa la toma de decisiones estratégicas mediante 
+											análisis de datos claros e intuitivos.</blockquote>
+										<section>
+											<h3 class="major">Imágenes</h3>
+											<div class="box alt">
+												<div class="row gtr-uniform">
+													<div class="col-12">
+														<div class="carousel">
+															<div class="slides">
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore1.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore2.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore3.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore4.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore5.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore6.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore7.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore8.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore9.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore10.png" alt="" />
+																</span>
+																<span class="image fit">
+																	<img src="images/galeriaVirtualStore/galeriaVirtualStore11.png" alt="" />
+																</span>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="code-like-box">
+													<h3>Tecnologías Implementadas</h3>
+			
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/java_logo.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Java 17</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/spring.jpg" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Spring Boot 3</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/thymeleaf.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Thymeleaf</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/spring-security.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Spring Security 6</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/css-html.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Css 3 | Html 5</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/javascript-logo.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">JavaScript</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/mysql.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">MySQL 8</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/postgres.jpg" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">PostgreSQL 16</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/docker.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Docker</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/ubuntu.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Ubuntu 22.04.5</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/aws-ec2.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">AWS EC2</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/aws-rds.jpg" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">AWS RDS</span>
+													</div>
+													<div class="tooltip">
+														<img src="images/tecnologiasImpl/git-github.png" style="width: 100px; height: 60px;" />
+														<span class="tooltiptext">Git | GitHub</span>
+													</div>
+
+													<p>"Te invito a visitar este enlace <b><a href="http://ec2-54-210-171-86.compute-1.amazonaws.com:9091/login" target="_blank">(admin : 1234)</a></b> para explorar y probar mi sistema. 
+														Tu retroalimentación será muy valiosa para seguir mejorándolo. <b>¡Espero que te guste!</b>"
+													</p>
+													<p>El código de la versión alpha está disponible en mi GitHub: <b><a href="https://github.com/RenmaxAS/Tienda" target="_blank">VirtualStore</a></b>. 
+														<b>¡Siéntete libre de revisarlo y compartir tus comentarios!</b>
+													</p>
+													
+												</div>
+											</div>
+											
+										</section>
+									</section>
+
+									<!--<section>
 										<h3 class="major">Text</h3>
 										<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
 										This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
@@ -65,7 +241,7 @@ while (!deck.isInOrder()) {
 }
 
 print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
-									</section>
+									</section> -->
 
 									<!-- <section>
 										<h3 class="major">Lists</h3>
@@ -329,12 +505,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 										</form>
 									</section> -->
 
-									<section>
+									<!-- <section>
 										<h3 class="major">Image</h3>
 										<h4>Fit</h4>
 										<div class="box alt">
 											<div class="row gtr-uniform">
-												<div class="col-12"><span class="image fit"><img src="images/pic08.jpg" alt="" /></span></div>
+												<div class="col-10"><span class="image fit"><img src="images/pic08.jpg" alt="" /></span></div>
 												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
 												<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
 												<div class="col-4"><span class="image fit"><img src="images/pic07.jpg" alt="" /></span></div>
@@ -346,7 +522,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 												<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
 											</div>
 										</div>
-									</section>
+									</section> -->
 
 								</div>
 							</div>
@@ -362,6 +538,30 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				// Seleccionamos el contenedor de las imágenes y el contenedor de las imágenes
+				const slides = document.querySelector('.slides');
+				const images = document.querySelectorAll('.slides .image');
+
+				// Establecemos un contador para rastrear la imagen actual
+				let currentIndex = 0;
+				const totalImages = images.length;
+
+				// Función para cambiar a la siguiente imagen
+				function changeImage() {
+					// Aumentamos el índice de la imagen actual
+					currentIndex = (currentIndex + 1) % totalImages;
+					
+					// Calculamos el desplazamiento
+					const offset = -currentIndex * 100; // Cada imagen tiene un ancho de 100%
+					
+					// Aplicamos el desplazamiento
+					slides.style.transform = `translateX(${offset}%)`;
+				}
+
+				// Llamamos a la función cada 3 segundos
+				setInterval(changeImage, 3000);
+			</script>
 
 	</body>
 </html>
